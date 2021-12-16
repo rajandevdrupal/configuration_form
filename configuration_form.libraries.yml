@@ -1,0 +1,10 @@
+custom_library:
+  js: 
+    js/jquery.jclock.js: {}
+    js/custom.js: {}
+
+  dependencies: 
+    - core/drupal
+    - core/jquery
+    - core/jquery.once
+    - core/drupalSettings

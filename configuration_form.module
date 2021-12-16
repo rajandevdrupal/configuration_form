@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * Congiguration form functions list.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function configuration_form_theme($existing, $type, $theme, $path) {
+  return [
+    'admin_template' => [
+      'variables' => [
+        'country' => NULL,
+        'city' => NULL,
+        'timezone' => NULL,
+        'time' => NULL,
+      ],
+    ],
+  ];
+}
